@@ -16,7 +16,7 @@ import javax.annotation.Nullable;
 
 public class WandererCharmItem extends Item {
     public WandererCharmItem() {
-        super(new Properties().maxStackSize(1).maxDamage(64).group(ItemGroup.TOOLS));
+        super(new Properties().stacksTo(1).durability(64).tab(ItemGroup.TAB_TOOLS));
     }
 
     @Override
